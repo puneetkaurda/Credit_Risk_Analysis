@@ -5,4 +5,18 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ## Results
 
+Naive Random Oversampling:
+
+<img width="784" alt="Screen Shot 2022-10-13 at 4 18 26 PM" src="https://user-images.githubusercontent.com/107584891/195721493-e7ec051c-3fb8-4b6a-af05-057f32180afb.png">
+-The balanced accuracy score was 0.6533, meaning the model predicted the credit risk accurately 65.96% of the time.
+-The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loans.
+-The recall scores for this model show that the model is better at identifying positive low-risk loans (0.67) and decent at positively identifying high-risk loans (0.63)
+
+SMOTE Oversampling:
+
+
+- The balanced accuracy score was 0.6533, meaning the model predicted the credit risk accurately 65.33% of the time.
+- The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loans.
+- The recall scores for this model show that the model is better at identifying positive low-risk loans (0.67) and decent at positively identifying high-risk loans (0.63)
+
 
